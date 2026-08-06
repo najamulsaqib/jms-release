@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in JMS Tax is not working as expected
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please do not paste client names, CNICs, NTNs, or
+        any other taxpayer data into this form — this repository is public.
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Found under Help → About.
+      placeholder: 3.4.0-beta.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Update channel
+      options:
+        - latest
+        - beta
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Tax Records
+        2. Select three rows
+        3. Click Export → PDF
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: |
+        Windows — `%APPDATA%\JMSTax\logs\main.log`
+        macOS — `~/Library/Logs/JMSTax/main.log`
+        Paste the last ~50 lines. Redact anything sensitive first.
+      render: text
+    validations:
+      required: false

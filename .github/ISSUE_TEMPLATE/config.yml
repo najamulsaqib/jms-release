@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, billing, or licensing
+    url: mailto:1najamulsaqib@gmail.com
+    about: Subscription, access, and module entitlement questions are handled by email.
+  - name: Download a build
+    url: https://github.com/najamulsaqib/jms-release/releases
+    about: Installers for Windows and macOS, plus release notes.

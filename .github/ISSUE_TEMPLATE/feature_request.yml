@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest a change or an addition to JMS Tax
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is public — please keep client data out of the description.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the workflow that is slow, manual, or error-prone today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Tax records
+        - Portals
+        - Team management
+        - Dashboard / reporting
+        - Import / export
+        - Updates & installation
+        - Other
+    validations:
+      required: true
