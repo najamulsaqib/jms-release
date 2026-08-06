@@ -9,6 +9,11 @@ pre-releases on the `beta` channel.
 
 <!-- RELEASES:START -->
 
+## v3.3.2 — Stable
+
+* feat: bank statement calculator, NTN on tax records, and macOS release builds by @najamulsaqib
+* Remove Python bytecode and enhance release workflows by @najamulsaqib
+
 ## v4.0.0-beta.0 — Beta
 
 * Enhance bulk PDF export functionality for tax records by @najamulsaqib
