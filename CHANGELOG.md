@@ -9,6 +9,13 @@ pre-releases on the `beta` channel.
 
 <!-- RELEASES:START -->
 
+## v4.0.0-beta.0 — Beta
+
+* Enhance bulk PDF export functionality for tax records by @najamulsaqib
+* feat: bank statement calculator, NTN on tax records, and macOS release builds by @najamulsaqib
+* feat: update pnpm version and ignore optional dependencies for canvas by @najamulsaqib
+* feat: add superadmin functions for client management and password reset by @najamulsaqib
+
 ## v3.4.0-beta.1 — Beta
 
 - Ignore the optional `canvas` dependency and pin the pnpm version used for builds
