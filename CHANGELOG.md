@@ -9,6 +9,10 @@ pre-releases on the `beta` channel.
 
 <!-- RELEASES:START -->
 
+## v4.0.0-beta.1 — Beta
+
+_No notable changes._
+
 ## v3.3.2 — Stable
 
 * feat: bank statement calculator, NTN on tax records, and macOS release builds by @najamulsaqib
