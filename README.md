@@ -4,8 +4,8 @@
 ![macOS](https://img.shields.io/badge/macOS-12%2B-000000?logo=apple&logoColor=white)
 ![License](https://img.shields.io/badge/License-Proprietary-red.svg)
 
-Desktop application for JMS Tax Consultancy — client tax records, portal pages,
-and filings in one place.
+A desktop platform for tax consultancies — tax records, portal pages, team management
+and filings in one place. Each firm works in its own isolated workspace.
 
 **This repository holds the published builds and the changelog only.** The source
 code is private and is not distributed. See [CHANGELOG.md](CHANGELOG.md) for what
